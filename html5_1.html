@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> HTML 5 course => deprecated Tags</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<!--[if lt IE 9 ]>
+	<script src="html5shiv.min.js"></script>
+	<! [end if]-->
+</head>
+<body>
+<!--
+Deprecated Tags :
+[Acronyme]  ==> rempalcer par [abbr]
+[Applet]    ==> rempalcer par [object]
+[basefont]  ==> rempalcer par [css]
+-->
+
+
+<!-- Start Header -->
+<header class="main">
+	HTML  COURSE
+</header>
+<!-- End Header -->
+
+<!--Start Navigation -->
+<nav>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#about">About</a></li>
+
+	</ul>
+</nav>
+<!--End Navigation -->
+
+<!--  Start main content -->
+<main>
+	<p>welcom To <span>Your Academy</span> Learning <time datetime="27-12-1993"> Dec,27,1993</time></p>
+</main>
+
+<!--  End main content -->
+<!-- Start Article -->
+
+<div class="post">
+	<article>
+		<header> <h2>Article about Using  &lt;Progress
+
+
+			&gt; </h2>
+
+			<p>Created by Younes</p>
+			<div>
+				Design :<progress value="7" max="10"></progres><br>
+				Coding :<progress value="65%" max="100%"></progress><br>
+			</div>
+		</header>
+		<section>
+
+			<p> This is Article Content Number #01
+				<div> i will become a hero <acronym title= "he is a person who will change the world">  <span>younes</span></acronym> </div><br>
+			</p>
+		</section>
+
+	</article>
+
+	<article>
+		<header> <h2>Article about Using  &lt;details&gt; </h2>
+			<p>Created by <mark> Younes</mark></p>
+		</header>
+		<section>
+			<p> This is Article Content Number #01</p>
+			<p>
+				<details>
+					<summary> References</summary>
+					<ul>
+						<li>Ref 1</li>
+						<li>Ref 2</li>
+						<li>Ref 3</li>
+					</ul>
+				</details>
+			</p>
+		</section>
+	</article>
+
+
+	<article>
+		<header> <h2>Article about Using  &lt;wbr&gt;</h2>
+			<p>Created by Younes</p>
+		</header>
+		<section>
+			<p> This is Article Content Number #01</p>
+
+			<div class="long-link">
+
+				<wbr>file:///C:/wamp64/www/project/Html-CSS/html5_1.html&</wbr>
+				<wbr>file:///C:/wamp64/www/project/Html-CSS/html5_1.html</wbr>
+
+			</div>			
+		</section>
+	</article>
+
+
+	<article>
+		<header> <h2>Article about Using  &lt;code &gt; under &lt;Figure &gt;</h2>
+			<p>Created by <mark> Younes</mark></p>
+		</header>
+		<section>
+			<p> This is  Content Number #01</p>
+			<figure class="code">
+				<figcaption> This is div syntax</figcaption>
+				<code>
+					This is  &lt;div&gt;begin and end &lt;/div&gt;
+				</code>
+			</figure>
+		</section>
+	</article>
+	<article>
+		<header> <h2>Article about Using  &lt;Figure&gt; </h2>
+			<p>Created by <mark> Younes</mark></p>
+		</header>
+	</article>
+	<section>
+		<p> This is  Content Number #01</p>
+		<figure class="figure">
+			<img src="C:\wamp64\www\project\Html-CSS\img\cordova.jpg">
+			<img src="C:\wamp64\www\project\Html-CSS\img\cordova.jpg">
+			<img src="C:\wamp64\www\project\Html-CSS\img\cordova.jpg">
+			<figcaption> This is div syntax</figcaption>
+			
+		</figure>
+	</section >
+
+	<section>
+		<p> This is  HTML_5 vedio</p>
+
+		<video controls width="320" height="320" poster="img/cordova.jpg"></video>
+
+		<source src="audio-video/1.mp4" type="video/mp4">
+			<source src="audio-video/1.ogg" type="vedeo/ogg">
+				<em>Your browser dose not support vedio ,we are sorry</em> 
+			</video>
+		</section >
+
+		<section class="Html5-form" >
+			<h3> Form Input - Color, Range, Number</h3>
+			<form>
+
+				<label>Color</label>
+				<input type="Color" name="them" value="#0000FF">
+				<label>Range</label>
+				<input type="Range" name="choose" min="1" step="5">
+				<label>Number</label>
+				<input type="Number" name="Nnmber" min="1" max="27" step="3">
+				<label>email</label>
+				<input type="email" name="email">
+				<label>search</label>
+				<input type="search" name="search">
+				<label>url</label>
+				<input type="url" name="url">
+				<label>time</label>
+				<input type="time" name="time">
+				<label>datetime</label>
+				<input type="datetime" name="datetime">
+				<label>date</label>
+				<input type="date" name="date">
+				<label>Month</label>
+				<input type="Month" name="Month">
+				<input type="submit" value="send">
+			</form>
+		</section>
+
+
+
+
+	</div>
+	<!-- End Article -->
+
+	<!--start sidebar-->
+	<aside>
+
+		<section class="links">
+			<h3>Caregory</h3>
+			<ul>
+				<li> Intro</li>
+				<li> Semantic</li>
+				<li> Api</li>
+				<li> New Attributes</li>
+				<li> Mulimedia Element</li>
+			</ul>
+		</section>
+
+		<section class="meters">
+			<h3>Performance</h3>
+			<div>
+				Cpu : <meter min="0" max="1" value=".1" low=".4" high=".9" optimum=".7"></meter>
+			</div>
+		</section>
+
+		<section class="Top-point">
+			<h3>Top-poin</h3>
+			<ul>
+				<li> Younes :80pts</li>
+				<li> Ahmed :90pts</li>
+				<li> <bdi>علي </bdi>:120 pts</li>
+				<li> New Attributes</li>
+				<li> Mulimedia Element</li>
+			</ul>
+		</section>
+
+		<section class="datalist_exp">
+			<h3>what's your Best Browser </h3>
+
+
+			<form >
+				<input list="browsers" name="browser">
+				<datalist id="browsers">
+					<option value="Internet Explorer"></option>
+					<option value="Firefox"></option>
+					<option value="Chrome"></option>
+					<option value="Opera"></option>
+					<option value="Safari"></option>
+				</datalist>
+				<input type="submit" name="validez">
+			</form>
+		</section>
+
+		<section class="Calculate_Age">
+			<h3>Calculate your age</h3>
+			<form oninput="result.value=parseInt(age.value)*parseInt(days.value) + ' Days'">
+				<input type="text" name="age">
+				<input type="hidden" name="days" value="365">
+				<output name="result"></output>
+			</form>
+		</section>
+
+		<section class="audio" >
+			<h3> vedio</h3>
+			<audio controls  muted autoplay loop preload="metadata">
+				<source src="audio-video/1.mp3" type="audio/mpeg">
+					<track kind="metadata" src="younes.vtt" srclang="en" label="English">
+						<em>Your browser dose not support audio</em> 
+					</audio>
+				</section>
+
+
+
+
+				<div class="clearfix"></div>
+			</aside>
+			<!--end side bar-->
+			<!--start Footer -->
+			<footer>
+				Copyright 2017 &copy;All Right Reseved 
+			</footer>
+			<!--end Footer -->
+		</body>
+		</html>

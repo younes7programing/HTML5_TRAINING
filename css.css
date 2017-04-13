@@ -1,0 +1,194 @@
+/* Global Setting */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-box-sizing:border-box;
+	margin: 7px
+}
+body
+
+width: 100%
+font-family: Arial,Tahoma;
+}
+.clearfix
+{
+	clear: both;
+}
+
+
+.main
+{
+	background-color: #3333;
+	color: #DDD;
+	text-align: center;
+	padding: 20px;
+}
+ul
+{
+	list-style: none;
+}
+header
+{
+	background-color: #333;
+	color: #DDD;
+	
+	padding: 10px
+}
+
+nav 
+{
+	background-color: #DDD;
+}
+nav ul {
+	
+	text-align: center;
+	overflow: hidden;
+	background-color: #333;
+}
+
+
+}
+
+nav ul li a {
+	
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+}
+nav ul li a:hover {
+	background-color: #111;
+}
+nav ul li:after{
+	content: " | "
+}
+nav ul li :last-child:after{
+	content: ""
+}
+
+main{
+	background-color: #EEE;
+	padding: 20px;
+
+}
+main p 
+{
+	text-align: center;
+	
+}
+main p span
+{
+	font-weight: bold;
+	color: : #777;
+}
+.post article header mark 
+{
+	background-color:  rgba(77, 255, 0, 0.76);
+	color:#FFF;
+}
+.post
+{
+	width: 65%;
+	float: left;
+}
+.post article
+{
+	
+	background-color:#F6F6F6;
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+}
+
+.post article header 
+{
+	background: #695d5d;
+	padding: 10px;
+}
+
+.post article section 
+{
+	background: #E2E2E2;
+	padding: 10px;EE
+}
+.post article section .long-link
+{
+	width: 200px;
+}
+.post article section details
+{
+	margin: 10px 0;
+}
+.post article section .code
+{
+	background-color: 10px;
+	padding: block;
+	margin: 10px 0;
+	border: 1px solid #CCC
+	max-width:500px; 
+}
+.post article section .figure
+
+{
+	background-color: 10px;
+	padding: block;
+	margin: 10px 0;
+	border: 1px solid #CCC
+	max-width:500px; 
+}
+.post article section .figure img
+{
+	border: 1px solid #CCC;
+	padding: 3px;
+	background-color: #FFF;
+}
+.post article section .figure figcaption
+{
+	text-align: center;
+}
+
+.post article section .Html5-form input 
+{
+	display: block;
+	margin-bottom: 10px;
+}
+aside
+{
+	float: right;
+	width: 31%;
+
+}
+aside section
+{
+	background-color: #EEE;
+	margin: 10px 
+	padding: 10px;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+aside section h3{
+	background:#D1D1D1;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+aside section 
+{
+	line-height: 10px;
+}
+aside section ul
+{
+	margin-top: 10px;
+}
+footer
+{
+	clear: both;
+	background-color: #333;
+	color: #DDD;
+	text-align: center;
+	padding: 10px;
+
+	}
